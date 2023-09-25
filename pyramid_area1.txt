@@ -9,7 +9,7 @@ def area(side, x):
     for i in range(1, x+1):
         tri_area = side ** 2 * sqrt(3)/4
         sides_per = side * 3
-        total += something
+        total += 0 #something
         side *= i
     return total
 
